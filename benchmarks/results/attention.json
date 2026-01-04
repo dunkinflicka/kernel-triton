@@ -1,0 +1,122 @@
+[
+  {
+    "batch": 1,
+    "heads": 4,
+    "seq_len": 128,
+    "torch_latency_ms": 0.48849025726318357,
+    "torch_vram_mb": 9.17504,
+    "triton_latency_ms": 0.0328601598739624,
+    "triton_vram_mb": 8.781824,
+    "speedup": 14.865729781499068
+  },
+  {
+    "batch": 1,
+    "heads": 4,
+    "seq_len": 256,
+    "torch_latency_ms": 0.8438886260986328,
+    "torch_vram_mb": 10.747904,
+    "triton_latency_ms": 0.10216447830200195,
+    "triton_vram_mb": 9.043968,
+    "speedup": 8.260098227135924
+  },
+  {
+    "batch": 1,
+    "heads": 4,
+    "seq_len": 512,
+    "torch_latency_ms": 0.25885663986206053,
+    "torch_vram_mb": 16.646144,
+    "triton_latency_ms": 0.06953983783721923,
+    "triton_vram_mb": 9.568256,
+    "speedup": 3.7224222533851643
+  },
+  {
+    "batch": 1,
+    "heads": 8,
+    "seq_len": 128,
+    "torch_latency_ms": 0.26158239364624025,
+    "torch_vram_mb": 9.8304,
+    "triton_latency_ms": 0.05996543884277344,
+    "triton_vram_mb": 9.043968,
+    "speedup": 4.362219283212402
+  },
+  {
+    "batch": 1,
+    "heads": 8,
+    "seq_len": 256,
+    "torch_latency_ms": 0.15235072135925293,
+    "torch_vram_mb": 12.976128,
+    "triton_latency_ms": 0.050000319480896,
+    "triton_vram_mb": 9.568256,
+    "speedup": 3.0469949580514726
+  },
+  {
+    "batch": 1,
+    "heads": 8,
+    "seq_len": 512,
+    "torch_latency_ms": 0.23795711517333984,
+    "torch_vram_mb": 24.772608,
+    "triton_latency_ms": 0.12125184059143067,
+    "triton_vram_mb": 10.616832,
+    "speedup": 1.9625031175828367
+  },
+  {
+    "batch": 2,
+    "heads": 4,
+    "seq_len": 128,
+    "torch_latency_ms": 0.248953914642334,
+    "torch_vram_mb": 9.8304,
+    "triton_latency_ms": 0.05394432067871094,
+    "triton_vram_mb": 9.043968,
+    "speedup": 4.615016215054189
+  },
+  {
+    "batch": 2,
+    "heads": 4,
+    "seq_len": 256,
+    "torch_latency_ms": 0.27236352920532225,
+    "torch_vram_mb": 12.976128,
+    "triton_latency_ms": 0.08132608413696289,
+    "triton_vram_mb": 9.568256,
+    "speedup": 3.34903041374314
+  },
+  {
+    "batch": 2,
+    "heads": 4,
+    "seq_len": 512,
+    "torch_latency_ms": 0.19589120864868165,
+    "torch_vram_mb": 24.772608,
+    "triton_latency_ms": 0.06858751773834229,
+    "triton_vram_mb": 10.616832,
+    "speedup": 2.8560766610040638
+  },
+  {
+    "batch": 2,
+    "heads": 8,
+    "seq_len": 128,
+    "torch_latency_ms": 0.1540505599975586,
+    "torch_vram_mb": 11.14112,
+    "triton_latency_ms": 0.02755584001541138,
+    "triton_vram_mb": 9.568256,
+    "speedup": 5.590486804662877
+  },
+  {
+    "batch": 2,
+    "heads": 8,
+    "seq_len": 256,
+    "torch_latency_ms": 0.1605939292907715,
+    "torch_vram_mb": 17.432576,
+    "triton_latency_ms": 0.03743743896484375,
+    "triton_vram_mb": 10.616832,
+    "speedup": 4.28966119828816
+  },
+  {
+    "batch": 2,
+    "heads": 8,
+    "seq_len": 512,
+    "torch_latency_ms": 0.4268032073974609,
+    "torch_vram_mb": 41.025536,
+    "triton_latency_ms": 0.14832639694213867,
+    "triton_vram_mb": 12.713984,
+    "speedup": 2.8774595499946956
+  }
+]

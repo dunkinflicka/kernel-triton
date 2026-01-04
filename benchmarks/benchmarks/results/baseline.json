@@ -1,0 +1,8 @@
+{
+  "batch": 1,
+  "heads": 4,
+  "seq_len": 256,
+  "dim": 64,
+  "latency_ms": 0.11933695793151855,
+  "peak_vram_mb": 9.109504
+}
