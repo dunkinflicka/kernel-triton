@@ -103,7 +103,7 @@ The Triton attention kernel dispatches once and uses no intermediate buffers. Th
 
 The Triton attention kernel is validated on a real transformer end-to-end.
 
-▶️ **GPT-2 Triton Inference Demo** — [`anviit/triton_gpt2`](https://github.com/anviit/triton_gpt2)
+▶️ **GPT-2 Triton Inference Demo** — [`anviit/nanogpt-triton-inference`](https://github.com/anviit/nanogpt-triton-inference)
 
 Integrates this kernel into a nanoGPT implementation and benchmarks autoregressive inference throughput and memory usage against the PyTorch baseline.
 
