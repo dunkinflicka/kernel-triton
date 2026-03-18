@@ -1,4 +1,4 @@
-# kernel-triton
+# triton-int8-inference
 
 GPU-efficient LLM inference on constrained hardware — custom Triton causal attention kernel with INT8 weight-only quantization. Targets 6 GB VRAM mid-tier GPUs.
 
@@ -121,7 +121,7 @@ Integrates this kernel into a nanoGPT implementation and benchmarks autoregressi
 ## Project Structure
 
 ```
-kernel-triton/
+triton-int8-inference/
 ├── kernels/
 │   ├── __init__.py
 │   ├── triton_flash.py          # Triton causal attention kernel
